@@ -11,13 +11,13 @@ public class UserRepository {
     private final AtomicLong identity = new AtomicLong(0);
 
     public void insert (User user){
-        Long id = identity.incrementAndGet();
+        long id = identity.incrementAndGet();
         userMap.put(id,user);
     }
 
     public void save (User user){
         if(user.getId()==null){
-            Long id = identity.incrementAndGet();
+            long id = identity.incrementAndGet();
             userMap.put(id,user);
         } else {
             userMap.put(user.getId(), user);
@@ -25,7 +25,11 @@ public class UserRepository {
         userMap.put(user.getId(), user);
     }
 
-    public void delete (Long id){
+    public void delete (long id){
+        userMap.remove(id);
+    }
+
+    public void findById (long id){
         userMap.remove(id);
     }
 

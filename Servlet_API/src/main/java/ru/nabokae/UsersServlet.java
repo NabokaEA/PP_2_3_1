@@ -28,5 +28,12 @@ public class UsersServlet extends HttpServlet {
         List<User> userList = userRepository.findAll();
         User user = userList.get(1);
         resp.getWriter().println(user);
+        req.getContextPath();
+        resp .getWriter().println("<p> ContextPath:"+req.getContextPath());
+        resp .getWriter().println("<p> ServletPath:"+req.getServletPath());
+        resp .getWriter().println("<p> PathInfo:"+req.getPathInfo());
+        resp .getWriter().println("<p> QueryString:"+req.getQueryString());
+        resp .getWriter().println("<p> param1:"+req.getParameter("param1"));
+        resp .getWriter().println("<p> param2:"+req.getParameter("param2"));
     }
 }
