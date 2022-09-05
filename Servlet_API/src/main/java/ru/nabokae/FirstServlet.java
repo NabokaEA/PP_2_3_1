@@ -1,25 +1,17 @@
 package ru.nabokae;
 
-import ru.nabokae.persist.User;
-import ru.nabokae.persist.UserRepository;
-
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
 @WebServlet(urlPatterns = "/serv1")
-public class FirstServlet extends HttpServlet {
+public class FirstServlet implements Servlet {
 
     private ServletConfig servletConfig;
-    private UserRepository userRepository;
 
     @Override
-    public void init() throws ServletException {
-        userRepository=(UserRepository) getServletContext().getAttribute("userRepository");
+    public void init(ServletConfig servletConfig) throws ServletException {
+        this.servletConfig = servletConfig;
     }
 
     @Override
@@ -41,13 +33,6 @@ public class FirstServlet extends HttpServlet {
 
     @Override
     public void destroy() {
-    }
 
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
-        List<User> userList = userRepository.findAll();
-        User user = userList.get(1);
-        resp.getWriter().println(user);
     }
 }
