@@ -7,10 +7,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="1.1 Servlet API простой сервлет и с сервлет с передачей контекста через листенер+filter + разбор строки+выводв таблицу репозитория">
-      <change afterPath="$PROJECT_DIR$/SpringBasics/pom.xml" afterDir="false" />
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="2.0 Spring">
+      <change afterPath="$PROJECT_DIR$/Servlet_API/src/main/java/ru/nabokae/persist/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBasics/src/main/java/ru/nabokae/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBasics/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet_API/src/main/java/ru/nabokae/BootstrapListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet_API/src/main/java/ru/nabokae/BootstrapListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet_API/src/main/java/ru/nabokae/UsersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet_API/src/main/java/ru/nabokae/UsersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet_API/src/main/java/ru/nabokae/persist/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet_API/src/main/java/ru/nabokae/persist/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -56,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662315795451</updated>
       <workItem from="1662315797213" duration="19889000" />
-      <workItem from="1662399113431" duration="5975000" />
+      <workItem from="1662399113431" duration="10367000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -100,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662404459030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2.0 Spring">
+      <created>1662406039752</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662406039752</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +140,7 @@
     <MESSAGE value="1.1 Servlet API простой сервлет и с сервлет с передачей контекста через листенер" />
     <MESSAGE value="1.1 Servlet API простой сервлет и с сервлет с передачей контекста через листенер+filter + разбор строки" />
     <MESSAGE value="1.1 Servlet API простой сервлет и с сервлет с передачей контекста через листенер+filter + разбор строки+выводв таблицу репозитория" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1 Servlet API простой сервлет и с сервлет с передачей контекста через листенер+filter + разбор строки+выводв таблицу репозитория" />
+    <MESSAGE value="2.0 Spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0 Spring" />
   </component>
 </project>

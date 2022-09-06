@@ -20,6 +20,7 @@
     <modules>
         <module>Servlet_API</module>
         <module>SpringBasics</module>
+        <module>SpringMVC</module>
     </modules>
 
     <build>

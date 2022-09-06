@@ -1,7 +1,7 @@
 package ru.nabokae;
 
 import ru.nabokae.persist.User;
-import ru.nabokae.persist.UserRepository;
+import ru.nabokae.persist.UserRepositoryImpl;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
@@ -15,11 +15,11 @@ import java.util.List;
 @WebServlet(urlPatterns = "/users")
 public class UsersServlet extends HttpServlet {
 
-    private UserRepository userRepository;
+    private UserRepositoryImpl userRepository;
 
     @Override
     public void init() throws ServletException {
-        userRepository=(UserRepository) getServletContext().getAttribute("userRepository");
+        userRepository=(UserRepositoryImpl) getServletContext().getAttribute("userRepository");
     }
 
     @Override
