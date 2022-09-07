@@ -1,12 +1,15 @@
 package ru.nabokae.persist;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Repository;
+
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
-
+@Repository
 public class UserRepositoryImpl implements UserRepository {
     private final Map<Long, User> userMap = new ConcurrentHashMap<>();
     private final AtomicLong identity = new AtomicLong(0);

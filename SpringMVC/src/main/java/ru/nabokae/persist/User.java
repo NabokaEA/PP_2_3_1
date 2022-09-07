@@ -1,5 +1,8 @@
 package ru.nabokae.persist;
 
+import org.springframework.context.annotation.Bean;
+
+
 public class User {
     private Long id;
     private String userName;

@@ -7,14 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.1.1 Spring MVC">
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/WebInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepositoryImpl.java" afterDir="false" />
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.1.2 Spring MVC">
+      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662315795451</updated>
       <workItem from="1662315797213" duration="19889000" />
-      <workItem from="1662399113431" duration="18932000" />
+      <workItem from="1662399113431" duration="22513000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -142,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662492425019</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="3.1.2 Spring MVC">
+      <created>1662547175594</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662547175594</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +176,7 @@
     <MESSAGE value="3.0 Spring MVC" />
     <MESSAGE value="3.1 Spring MVC" />
     <MESSAGE value="3.1.1 Spring MVC" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.1.1 Spring MVC" />
+    <MESSAGE value="3.1.2 Spring MVC" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.1.2 Spring MVC" />
   </component>
 </project>
