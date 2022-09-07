@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
   <!-- Required meta tags -->
@@ -16,7 +16,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">EShop</a>
+  <a class="navbar-brand" href="#">CRUD Application</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,9 +25,9 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
+     <!-- <li class="nav-item">
         <a class="nav-link" href="#">Products</a>
-      </li>
+      </li>-->
       <li class="nav-item active">
         <a class="nav-link" href="#">Users</a>
       </li>
@@ -58,8 +58,8 @@
         <tr hidden>
           <td class="text-center" colspan="5">No data</td>
         </tr>
-        <tr>
-          <th scope="row">1</th>
+        <tr th:each="user : ${users}">
+          <th scope="row" >1</th>
           <td>Alex</td>
           <td>
             <a class="btn btn-success" href="#"><i class="fas fa-edit"></i></a>

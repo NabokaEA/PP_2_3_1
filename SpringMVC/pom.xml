@@ -7,6 +7,7 @@
         <groupId>ru.nabokae</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <packaging>war</packaging>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>SpringMVC</artifactId>
@@ -61,7 +62,7 @@
                 <version>3.3.2</version>
                 <configuration>
                     <warSourceDirectory>src/webapp</warSourceDirectory>
-                    <warName>WEBApp</warName>
+                    <warName>CRUDApp</warName>
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
@@ -73,7 +74,7 @@
                     <url>http://localhost:8080/manager/text</url>
                     <username>admin</username>
                     <password>admin</password>
-                    <path>/WEBApp</path>
+                    <path>/CRUDApp</path>
                 </configuration>
             </plugin>
         </plugins>

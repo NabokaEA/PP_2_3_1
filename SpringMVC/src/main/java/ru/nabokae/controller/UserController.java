@@ -11,20 +11,20 @@ import ru.nabokae.persist.UserRepository;
 
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/user")
 public class UserController {
     public static final Logger logger = LoggerFactory.getLogger(UserController.class);
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
 
     @Autowired
     public UserController(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
-@GetMapping
+@GetMapping()
     public String ListPage(Model model) {
         logger.info("Запрошен список пользьзовантелей");
         model.addAttribute("users", userRepository.findAll());
-        return null;
+        return "users";
     }
 
 
