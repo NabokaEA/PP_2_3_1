@@ -6,6 +6,6 @@ public interface UserRepository {
     void insert(User user);
     void save(User user);
     void delete(long id);
-    void findById(long id);
+    User findById(long id);
     List<User> findAll();
 }

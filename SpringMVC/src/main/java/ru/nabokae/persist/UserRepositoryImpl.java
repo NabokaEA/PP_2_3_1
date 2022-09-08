@@ -1,6 +1,5 @@
 package ru.nabokae.persist;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
@@ -46,8 +45,9 @@ public class UserRepositoryImpl implements UserRepository {
     }
 
     @Override
-    public void findById(long id) {
+    public User findById(long id) {
         userMap.remove(id);
+        return null;
     }
 
     @Override
