@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.4.3 Добавление Юзера">
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.4.3 Добавление и апдейт юзера">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/user.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +73,7 @@
       <updated>1662315795451</updated>
       <workItem from="1662315797213" duration="19889000" />
       <workItem from="1662399113431" duration="28832000" />
-      <workItem from="1662578583453" duration="6929000" />
+      <workItem from="1662578583453" duration="12603000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -206,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662634735797</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="3.4.3 Добавление и апдейт юзера">
+      <created>1662635134699</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662635134699</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +253,8 @@
     <MESSAGE value="3.4.1 Добавление Юзера" />
     <MESSAGE value="3.4.2 Добавление Юзера" />
     <MESSAGE value="3.4.3 Добавление Юзера" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.4.3 Добавление Юзера" />
+    <MESSAGE value="3.4.3 Добавление и апдейт юзера" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.4.3 Добавление и апдейт юзера" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

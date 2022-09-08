@@ -32,13 +32,13 @@ public class UserController {
     @GetMapping("/new")
     public String NewUserForm (Model model) {
         logger.info("Запрошена страница создания нового юзера");
-        model.addAttribute("userAttr", new User());
+        model.addAttribute("user", new User());
         return "user";
     }
 
-    @PostMapping("/new")
+    @PostMapping()
     public String UpdateUser (User user) {
-        logger.info("Запрошена страница создания нового юзера");
+        logger.info("Запрошена страница обновления юзера");
        userRepository.save(user);
         return "redirect:/user";
     }
