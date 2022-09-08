@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import ru.nabokae.persist.User;
 import ru.nabokae.persist.UserRepository;
 
 
@@ -27,5 +28,10 @@ public class UserController {
         return "users";
     }
 
-
+    @GetMapping("/new")
+    public String ListPage(Model model) {
+        logger.info("Запрошена страница создания нового юзера");
+        model.addAttribute("userAttr", new User());
+        return "user";
+    }
 }

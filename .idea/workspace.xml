@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.3 Рабочий релиз">
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/resources/css/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/pom.xml" afterDir="false" />
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.3 Рабочий релиз c рабочим логом">
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <updated>1662315795451</updated>
       <workItem from="1662315797213" duration="19889000" />
       <workItem from="1662399113431" duration="28832000" />
-      <workItem from="1662578583453" duration="4468000" />
+      <workItem from="1662578583453" duration="5195000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -180,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662632179161</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="3.3 Рабочий релиз c рабочим логом">
+      <created>1662632769353</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662632769353</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +219,8 @@
     <MESSAGE value="3.2 Spring MVC" />
     <MESSAGE value="3.2 Spring MVC err" />
     <MESSAGE value="3.3 Рабочий релиз" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.3 Рабочий релиз" />
+    <MESSAGE value="3.3 Рабочий релиз c рабочим логом" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.3 Рабочий релиз c рабочим логом" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
