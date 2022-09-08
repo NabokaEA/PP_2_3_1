@@ -25,7 +25,7 @@ public class UserController {
 @GetMapping("/all")
     public String ListPage(Model model) {
         logger.info("Запрошен список пользьзовантелей");
-        model.addAttribute("users", userRepository.findAll());
+        model.addAttribute("usersAll", userRepository.findAll());
         return "users";
     }
 
@@ -36,11 +36,11 @@ public class UserController {
         return "user";
     }
 
-    @PostMapping()
+    @PostMapping("/all")
     public String UpdateUser (User user) {
         logger.info("Запрошена страница обновления юзера");
-       userRepository.save(user);
-        return "redirect:/user";
+       userRepository.insert(user);
+        return "redirect:/users/all";
     }
 
 
