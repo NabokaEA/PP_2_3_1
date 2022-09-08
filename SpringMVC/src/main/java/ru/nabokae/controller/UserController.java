@@ -12,7 +12,7 @@ import ru.nabokae.persist.UserRepository;
 
 
 @Controller
-@RequestMapping("/user")
+@RequestMapping("/users")
 public class UserController {
     public static final Logger logger = LoggerFactory.getLogger(UserController.class);
     private final UserRepository userRepository;
@@ -21,7 +21,7 @@ public class UserController {
     public UserController(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
-@GetMapping()
+@GetMapping("/all")
     public String ListPage(Model model) {
         logger.info("Запрошен список пользьзовантелей");
         model.addAttribute("users", userRepository.findAll());
@@ -29,7 +29,7 @@ public class UserController {
     }
 
     @GetMapping("/new")
-    public String ListPage(Model model) {
+    public String NewUserForm (Model model) {
         logger.info("Запрошена страница создания нового юзера");
         model.addAttribute("userAttr", new User());
         return "user";

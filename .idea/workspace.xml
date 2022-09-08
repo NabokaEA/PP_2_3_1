@@ -7,10 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.4.1 Добавление Юзера">
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.4.2 Добавление Юзера">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/user.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <updated>1662315795451</updated>
       <workItem from="1662315797213" duration="19889000" />
       <workItem from="1662399113431" duration="28832000" />
-      <workItem from="1662578583453" duration="5890000" />
+      <workItem from="1662578583453" duration="6595000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662633559257</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="3.4.2 Добавление Юзера">
+      <created>1662634100294</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662634100294</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +237,8 @@
     <MESSAGE value="3.3 Рабочий релиз" />
     <MESSAGE value="3.3 Рабочий релиз c рабочим логом" />
     <MESSAGE value="3.4.1 Добавление Юзера" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.4.1 Добавление Юзера" />
+    <MESSAGE value="3.4.2 Добавление Юзера" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.4.2 Добавление Юзера" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
