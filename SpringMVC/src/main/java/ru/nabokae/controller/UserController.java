@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ru.nabokae.persist.User;
 import ru.nabokae.persist.UserRepository;
@@ -34,4 +35,13 @@ public class UserController {
         model.addAttribute("userAttr", new User());
         return "user";
     }
+
+    @PostMapping("/new")
+    public String UpdateUser (User user) {
+        logger.info("Запрошена страница создания нового юзера");
+       userRepository.save(user);
+        return "redirect:/user";
+    }
+
+
 }
