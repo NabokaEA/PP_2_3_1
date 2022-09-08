@@ -8,7 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.3 Рабочий релиз">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/resources/css/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Евгений/IdeaProjects/PP_2_3_1_/SpringMVC",
+    "last_opened_file_path": "C:/Users/Евгений/IdeaProjects/PP_2_3_1_/SpringMVC/src/main/WebApp/WEB-INF/resources/css",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "inlay.hints",
     "spring.configuration.checksum": "ca7810ebddf5a7f2935ff5fb7e371705"
@@ -55,6 +57,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Евгений\IdeaProjects\PP_2_3_1_\SpringMVC\src\main\WebApp\WEB-INF\resources\css" />
+      <recent name="C:\Users\Евгений\IdeaProjects\PP_2_3_1_\SpringMVC\src\main\WebApp\WEB-INF\resources" />
       <recent name="C:\Users\Евгений\IdeaProjects\PP_2_3_1_\SpringMVC\src\main\java\ru\nabokae" />
       <recent name="C:\Users\Евгений\IdeaProjects\PP_2_3_1_\SpringMVC\src\main\java\ru\nabokae\persist" />
     </key>
@@ -69,7 +73,7 @@
       <updated>1662315795451</updated>
       <workItem from="1662315797213" duration="19889000" />
       <workItem from="1662399113431" duration="28832000" />
-      <workItem from="1662578583453" duration="4093000" />
+      <workItem from="1662578583453" duration="4468000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -169,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662580010443</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="3.3 Рабочий релиз">
+      <created>1662632179161</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662632179161</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
