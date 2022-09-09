@@ -3,14 +3,16 @@ package ru.nabokae.controller;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
+import ru.nabokae.persist.NotFoundException;
 import ru.nabokae.persist.User;
 import ru.nabokae.persist.UserRepository;
+
+import java.util.Optional;
 
 
 @Controller
@@ -40,7 +42,7 @@ public class UserController {
 
     @PostMapping("/all")
     public String UpdateUser(User user) {
-        logger.info("Запрошен обновленный список пользователей");
+        logger.info("Запрошен обновленный список пользователей ");
         userRepository.update(user);
         return "redirect:/users/all";
     }
@@ -48,7 +50,19 @@ public class UserController {
     @GetMapping("/{id}")
     public String EditUserForm(@PathVariable("id") Long id, Model model) {
         logger.info("Запрошена страница редактирования пользователя");
-        model.addAttribute("user", userRepository.findById(id));
+      /*  Optional<User> optionalUser = userRepository.findById(id);
+        if(optionalUser.isPresent()){
+            User user = optionalUser.get();
+        }*/
+        model.addAttribute("user", userRepository.findById(id).orElseThrow(()-> new NotFoundException("User not found")));
         return "user";
+    }
+
+    @ExceptionHandler
+    public ModelAndView notFoundExceptionHandler(NotFoundException ex) {
+        ModelAndView modelAndView = new ModelAndView("not_found");
+        modelAndView.addObject("message",ex.getMessage());
+        modelAndView.setStatus(HttpStatus.NOT_FOUND);
+        return modelAndView;
     }
 }

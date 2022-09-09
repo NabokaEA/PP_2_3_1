@@ -7,9 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.5 СRU без D рабочий">
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.5.1 СRU без D рабочий">
+      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/not_found.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/NotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -97,7 +101,7 @@
       <workItem from="1662315797213" duration="19889000" />
       <workItem from="1662399113431" duration="28832000" />
       <workItem from="1662578583453" duration="27125000" />
-      <workItem from="1662746879045" duration="956000" />
+      <workItem from="1662746879045" duration="4625000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -281,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662747129579</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="3.5.1 СRU без D рабочий">
+      <created>1662748017734</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1662748017734</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +310,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.0 Servlet API" />
     <MESSAGE value="1.1 Servlet API ready" />
     <MESSAGE value="1.1 Servlet API ready + entity +repo" />
     <MESSAGE value="1.1 Servlet API ready + entity +repo +rus" />
@@ -324,7 +334,8 @@
     <MESSAGE value="3.4.6 Добавление и ссылка на  апдейт юзера" />
     <MESSAGE value="3.4.7 Добавление и ссылка на  апдейт юзера" />
     <MESSAGE value="3.5 СRU без D рабочий" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.5 СRU без D рабочий" />
+    <MESSAGE value="3.5.1 СRU без D рабочий" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.5.1 СRU без D рабочий" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
