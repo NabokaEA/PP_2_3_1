@@ -40,12 +40,8 @@ public class UserController {
 
     @PostMapping("/all")
     public String UpdateUser(User user) {
-        logger.info("Запрошен обновленный список пользователей посде добавления нового");
-        if (user.getId() == null) {
-            userRepository.insert(user);
-        } else {
-            userRepository.update(user);
-        }
+        logger.info("Запрошен обновленный список пользователей");
+        userRepository.update(user);
         return "redirect:/users/all";
     }
 

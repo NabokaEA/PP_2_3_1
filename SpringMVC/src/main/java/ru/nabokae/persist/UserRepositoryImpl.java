@@ -33,6 +33,7 @@ public class UserRepositoryImpl implements UserRepository {
     public void update(User user) {
         if (user.getId() == null) {
             Long id = identity.incrementAndGet();
+            user.setId(id);
             userMap.put(id, user);
         } else {
             userMap.put(user.getId(), user);
