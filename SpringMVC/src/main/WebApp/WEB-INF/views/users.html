@@ -62,7 +62,7 @@
           <th scope="row" th:text="${user.id}" >1</th>
           <td th:text="${user.userName}">Alex</td>
           <td>
-            <a class="btn btn-success" th:href="@{/user/{id}(id=${user.id})}"><i class="fas fa-edit"></i></a>
+            <a class="btn btn-success" th:href="@{/users/{id}(id=${user.id})}"><i class="fas fa-edit"></i></a>
             <a class="btn btn-danger" href="#"><i class="far fa-trash-alt"></i></a>
           </td>
         </tr>

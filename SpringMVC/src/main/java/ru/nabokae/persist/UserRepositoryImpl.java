@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
+
 @Repository
 public class UserRepositoryImpl implements UserRepository {
     private final Map<Long, User> userMap = new ConcurrentHashMap<>();
@@ -23,20 +24,19 @@ public class UserRepositoryImpl implements UserRepository {
 
     @Override
     public void insert(User user) {
-        long id = identity.incrementAndGet();
+        Long id = identity.incrementAndGet();
         user.setId(id);
         userMap.put(id, user);
     }
 
     @Override
-    public void save(User user) {
+    public void update(User user) {
         if (user.getId() == null) {
-            long id = identity.incrementAndGet();
+            Long id = identity.incrementAndGet();
             userMap.put(id, user);
         } else {
             userMap.put(user.getId(), user);
         }
-        userMap.put(user.getId(), user);
     }
 
     @Override
@@ -46,8 +46,7 @@ public class UserRepositoryImpl implements UserRepository {
 
     @Override
     public User findById(long id) {
-        userMap.remove(id);
-        return null;
+        return userMap.get(id);
     }
 
     @Override
