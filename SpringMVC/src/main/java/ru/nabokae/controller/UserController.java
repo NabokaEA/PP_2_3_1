@@ -52,7 +52,7 @@ public class UserController {
     @GetMapping("/{id}")
     public String EditUserForm(@PathVariable("id") Long id, Model model) {
         logger.info("Запрошена страница редактирования пользователя");
-        model.addAttribute("user", new User());
+        model.addAttribute("user", userRepository.findById(id));
         return "user";
     }
 }
