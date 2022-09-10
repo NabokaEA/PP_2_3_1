@@ -44,14 +44,17 @@
         <div class="form-group">
           <label for="name">Name</label>
           <input type="text" id="name"  class="form-control" th:field="*{userName}" placeholder="Enter name" >
+          <p class="text-danger" th:if="${#fields.hasErrors('userName')}" th:errors="*{userName}"></p>
         </div>
         <div class="form-group">
           <label for="password">Password</label>
           <input type="password" id="password" class="form-control" th:field="*{passWord}" placeholder="Enter password">
+          <p class="text-danger" th:if="${#fields.hasErrors('passWord')}" th:errors="*{passWord}"></p>
         </div>
         <div class="form-group">
           <label for="age">Age</label>
           <input type="number" id="age" class="form-control" th:field="*{Age}" placeholder="Enter User age">
+          <p class="text-danger" th:if="${#fields.hasErrors('Age')}" th:errors="*{Age}"></p>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
