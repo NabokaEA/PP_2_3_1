@@ -12,9 +12,10 @@ public class User {
     @NotBlank
     private String userName;
     private String passWord;
+    @Min(value = 16)
+    private Integer Age;
 
-    @Min(value = 18)
-    @Max(value = 151)
+
     public Integer getAge() {
         return Age;
     }
@@ -23,7 +24,7 @@ public class User {
         Age = age;
     }
 
-    private Integer Age;
+
 
     public User(Long id, String userName, String passWord, Integer age) {
         this.id = id;
