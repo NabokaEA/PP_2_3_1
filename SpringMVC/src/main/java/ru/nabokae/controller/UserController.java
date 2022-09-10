@@ -63,7 +63,7 @@ public class UserController {
         return "user";
     }
 
-    @GetMapping("/{id}/delete")
+    @DeleteMapping ("/{id}")
     public String EditUserForm(@PathVariable("id") Long id) {
         logger.info("Запрошена страница удаления пользователя c id={}",id);
         userRepository.delete(id);

@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.7.0 СRU+D">
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.7.0 СRUD рабочий">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" afterDir="false" />
@@ -98,7 +98,7 @@
       <workItem from="1662315797213" duration="19889000" />
       <workItem from="1662399113431" duration="28832000" />
       <workItem from="1662578583453" duration="27125000" />
-      <workItem from="1662746879045" duration="11693000" />
+      <workItem from="1662746879045" duration="13951000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -331,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662808124866</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="3.7.0 СRUD рабочий">
+      <created>1662808643627</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1662808643627</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +356,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2.0 Spring" />
     <MESSAGE value="3.0 Spring MVC" />
     <MESSAGE value="3.1 Spring MVC" />
     <MESSAGE value="3.1.1 Spring MVC" />
@@ -374,7 +380,8 @@
     <MESSAGE value="3.6. СRU без D рабочий User not found + Валидация Рабочий" />
     <MESSAGE value="3.6. СRU без D рабочий User not found + Валидация Рабочий +pass not blank" />
     <MESSAGE value="3.7.0 СRU+D" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.7.0 СRU+D" />
+    <MESSAGE value="3.7.0 СRUD рабочий" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.7.0 СRUD рабочий" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
