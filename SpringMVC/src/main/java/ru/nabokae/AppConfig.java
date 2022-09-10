@@ -35,8 +35,9 @@ import javax.sql.DataSource;
 import java.util.Objects;
 import java.util.Properties;
 
-@EnableWebMvc
+
 @Configuration
+@EnableWebMvc
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement
 @ComponentScan("ru.nabokae")
@@ -59,12 +60,11 @@ public class AppConfig implements WebMvcConfigurer {
         LocalContainerEntityManagerFactoryBean em
                 = new LocalContainerEntityManagerFactoryBean();
         em.setDataSource(getDataSource());
-        em.setPackagesToScan("ru.nabokae");
+        em.setPackagesToScan("ru.nabokae.persist");
         Properties props=new Properties();
         props.put("hibernate.show_sql", env.getProperty("hibernate.show_sql"));
         props.put("hibernate.hbm2ddl.auto", env.getProperty("hibernate.hbm2ddl.auto"));
-        JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
-        em.setJpaVendorAdapter(jpaVendorAdapter());
+        em.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         em.setJpaProperties(props);
 
         return em;

@@ -7,20 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.9 СRUD рабочий c http методом  delete">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hibernate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hibernate/src/main/java/ru/nabokae/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/HibernateRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="4.0 Hibernate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/ClassForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/ClassForTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/resources/db.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +119,7 @@
       <workItem from="1662399113431" duration="28832000" />
       <workItem from="1662578583453" duration="27125000" />
       <workItem from="1662746879045" duration="17292000" />
-      <workItem from="1662814920296" duration="9270000" />
+      <workItem from="1662814920296" duration="14887000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -374,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662811119883</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="4.0 Hibernate">
+      <created>1662829637495</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1662829637496</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +391,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3.1 Spring MVC" />
     <MESSAGE value="3.1.1 Spring MVC" />
     <MESSAGE value="3.1.2 Spring MVC" />
     <MESSAGE value="3.2 Spring MVC" />
@@ -417,7 +415,8 @@
     <MESSAGE value="3.7.0 СRU+D" />
     <MESSAGE value="3.7.0 СRUD рабочий" />
     <MESSAGE value="3.9 СRUD рабочий c http методом  delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.9 СRUD рабочий c http методом  delete" />
+    <MESSAGE value="4.0 Hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.0 Hibernate" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

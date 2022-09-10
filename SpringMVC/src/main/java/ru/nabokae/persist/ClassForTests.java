@@ -16,11 +16,11 @@ public class ClassForTests {
         System.out.println(userRepository2.findById(1));
         userRepository2.delete(1);
         System.out.println(userRepository2.findById(1));*/
-        AnnotationConfigApplicationContext context =
+        /*AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(AppConfig.class);
 
         LocalContainerEntityManagerFactoryBean entityManagerFactory = context.getBean(LocalContainerEntityManagerFactoryBean.class);
         EntityManager entityManager= entityManagerFactory.createNativeEntityManager();
-        EntityManager em = entityManagerFactory.
+        EntityManager em = entityManagerFactory.*/
     }
 }
