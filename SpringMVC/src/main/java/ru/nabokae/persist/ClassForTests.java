@@ -7,5 +7,7 @@ public class ClassForTests {
         userRepository2.update(user1);
 
         System.out.println(userRepository2.findById(1));
+        userRepository2.delete(1);
+        System.out.println(userRepository2.findById(1));
     }
 }

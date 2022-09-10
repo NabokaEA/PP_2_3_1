@@ -63,6 +63,13 @@ public class UserController {
         return "user";
     }
 
+    @GetMapping("/{id}/delete")
+    public String EditUserForm(@PathVariable("id") Long id) {
+        logger.info("Запрошена страница удаления пользователя");
+        userRepository.delete(id);
+        return "redirect:/users/all";
+    }
+
     @ExceptionHandler
     public ModelAndView notFoundExceptionHandler(NotFoundException ex) {
         ModelAndView modelAndView = new ModelAndView("not_found");

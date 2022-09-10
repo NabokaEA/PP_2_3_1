@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.5.2 СRU без D рабочий User not found + Валидация">
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.6. СRU без D рабочий User not found + Валидация Рабочий +pass not blank">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/ClassForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/ClassForTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <recent name="C:\Users\Евгений\IdeaProjects\PP_2_3_1_\SpringMVC\src\main\java\ru\nabokae\persist" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven. [clean,install,tomcat7:redeploy]">
+  <component name="RunManager" selected="Application.ClassForTests">
     <configuration name="ClassForTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.nabokae.persist.ClassForTests" />
       <module name="SpringMVC" />
@@ -98,7 +97,7 @@
       <workItem from="1662315797213" duration="19889000" />
       <workItem from="1662399113431" duration="28832000" />
       <workItem from="1662578583453" duration="27125000" />
-      <workItem from="1662746879045" duration="8522000" />
+      <workItem from="1662746879045" duration="10899000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -310,7 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662801614792</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="3.6. СRU без D рабочий User not found + Валидация Рабочий">
+      <created>1662802335140</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1662802335140</updated>
+    </task>
+    <task id="LOCAL-00032" summary="3.6. СRU без D рабочий User not found + Валидация Рабочий +pass not blank">
+      <created>1662802485343</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1662802485343</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,8 +341,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.1 Servlet API простой сервлет и с сервлет с передачей контекста через листенер" />
-    <MESSAGE value="1.1 Servlet API простой сервлет и с сервлет с передачей контекста через листенер+filter + разбор строки" />
     <MESSAGE value="1.1 Servlet API простой сервлет и с сервлет с передачей контекста через листенер+filter + разбор строки+выводв таблицу репозитория" />
     <MESSAGE value="2.0 Spring" />
     <MESSAGE value="3.0 Spring MVC" />
@@ -353,7 +364,9 @@
     <MESSAGE value="3.5.1 СRU без D рабочий User not found" />
     <MESSAGE value="3.5.1 СRU без D рабочий User not found + Валидация" />
     <MESSAGE value="3.5.2 СRU без D рабочий User not found + Валидация" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.5.2 СRU без D рабочий User not found + Валидация" />
+    <MESSAGE value="3.6. СRU без D рабочий User not found + Валидация Рабочий" />
+    <MESSAGE value="3.6. СRU без D рабочий User not found + Валидация Рабочий +pass not blank" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.6. СRU без D рабочий User not found + Валидация Рабочий +pass not blank" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
