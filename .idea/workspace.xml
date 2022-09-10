@@ -7,12 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.5.1 СRU без D рабочий">
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/not_found.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/NotFoundException.java" afterDir="false" />
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.5.1 СRU без D рабочий User not found">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/user.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/ClassForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/ClassForTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,7 @@
       <workItem from="1662315797213" duration="19889000" />
       <workItem from="1662399113431" duration="28832000" />
       <workItem from="1662578583453" duration="27125000" />
-      <workItem from="1662746879045" duration="4625000" />
+      <workItem from="1662746879045" duration="7006000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -292,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662748017734</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="3.5.1 СRU без D рабочий User not found">
+      <created>1662752247461</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1662752247461</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +318,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1.1 Servlet API ready" />
     <MESSAGE value="1.1 Servlet API ready + entity +repo" />
     <MESSAGE value="1.1 Servlet API ready + entity +repo +rus" />
     <MESSAGE value="1.1 Servlet API простой сервлет и с сервлет с передачей контекста через листенер" />
@@ -335,7 +342,8 @@
     <MESSAGE value="3.4.7 Добавление и ссылка на  апдейт юзера" />
     <MESSAGE value="3.5 СRU без D рабочий" />
     <MESSAGE value="3.5.1 СRU без D рабочий" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.5.1 СRU без D рабочий" />
+    <MESSAGE value="3.5.1 СRU без D рабочий User not found" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.5.1 СRU без D рабочий User not found" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

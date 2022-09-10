@@ -17,9 +17,9 @@ public class UserRepositoryImpl implements UserRepository {
 
     @PostConstruct
     public void init() {
-        this.insert(new User(1L, "Иван", "111"));
-        this.insert(new User(2L, "Марья", "222"));
-        this.insert(new User(3L, "Галя", "333"));
+        this.insert(new User(1L, "Иван", "111",20));
+        this.insert(new User(2L, "Марья", "222",21));
+        this.insert(new User(3L, "Галя", "333",16));
     }
 
 

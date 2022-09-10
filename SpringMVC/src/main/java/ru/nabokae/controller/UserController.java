@@ -6,12 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import ru.nabokae.persist.NotFoundException;
 import ru.nabokae.persist.User;
 import ru.nabokae.persist.UserRepository;
 
+import javax.validation.Valid;
 import java.util.Optional;
 
 
@@ -41,8 +43,11 @@ public class UserController {
     }
 
     @PostMapping("/all")
-    public String UpdateUser(User user) {
+    public String UpdateUser(@Valid User user, BindingResult bindingResult) {
         logger.info("Запрошен обновленный список пользователей ");
+        if(bindingResult.hasErrors()){
+            return "user";
+        }
         userRepository.update(user);
         return "redirect:/users/all";
     }

@@ -2,16 +2,34 @@ package ru.nabokae.persist;
 
 import org.springframework.context.annotation.Bean;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+
 
 public class User {
     private Long id;
+    @NotBlank
     private String userName;
     private String passWord;
 
-    public User(Long id, String userName, String passWord) {
+    @Min(value = 18)
+    @Max(value = 151)
+    public Integer getAge() {
+        return Age;
+    }
+
+    public void setAge(Integer age) {
+        Age = age;
+    }
+
+    private Integer Age;
+
+    public User(Long id, String userName, String passWord, Integer age) {
         this.id = id;
         this.userName = userName;
         this.passWord = passWord;
+        this.Age = age;
     }
 
     public User() {
