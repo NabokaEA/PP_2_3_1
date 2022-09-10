@@ -65,7 +65,7 @@ public class UserController {
 
     @GetMapping("/{id}/delete")
     public String EditUserForm(@PathVariable("id") Long id) {
-        logger.info("Запрошена страница удаления пользователя");
+        logger.info("Запрошена страница удаления пользователя c id={}",id);
         userRepository.delete(id);
         return "redirect:/users/all";
     }
