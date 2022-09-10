@@ -7,12 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="4.0 Hibernate">
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="4.1 Hibernate настройка конфига">
+      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/DataConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/ClassForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/ClassForTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/WebInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/ClassForTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +36,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -83,30 +89,6 @@
       <recent name="C:\Users\Евгений\IdeaProjects\PP_2_3_1_\SpringMVC\src\main\java\ru\nabokae\persist" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven. [clean,install,tomcat7:redeploy]">
-    <configuration name="ClassForTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.nabokae.persist.ClassForTests" />
-      <module name="SpringMVC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.nabokae.persist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.ClassForTests" />
-      <item itemvalue="Maven. [clean,install,tomcat7:redeploy]" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ClassForTests" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -119,7 +101,7 @@
       <workItem from="1662399113431" duration="28832000" />
       <workItem from="1662578583453" duration="27125000" />
       <workItem from="1662746879045" duration="17292000" />
-      <workItem from="1662814920296" duration="14887000" />
+      <workItem from="1662814920296" duration="19912000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -373,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662829637496</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="4.1 Hibernate настройка конфига">
+      <created>1662835939825</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1662835939825</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +380,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3.1.1 Spring MVC" />
     <MESSAGE value="3.1.2 Spring MVC" />
     <MESSAGE value="3.2 Spring MVC" />
     <MESSAGE value="3.2 Spring MVC err" />
@@ -416,7 +404,8 @@
     <MESSAGE value="3.7.0 СRUD рабочий" />
     <MESSAGE value="3.9 СRUD рабочий c http методом  delete" />
     <MESSAGE value="4.0 Hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.0 Hibernate" />
+    <MESSAGE value="4.1 Hibernate настройка конфига" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.1 Hibernate настройка конфига" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
