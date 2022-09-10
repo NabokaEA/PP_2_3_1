@@ -21,6 +21,7 @@
         <module>Servlet_API</module>
         <module>SpringBasics</module>
         <module>SpringMVC</module>
+        <module>Hibernate</module>
     </modules>
 
     <build>

@@ -1,19 +1,25 @@
 package ru.nabokae.persist;
 
+import jakarta.persistence.*;
 import org.springframework.context.annotation.Bean;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 
-
+@Entity
 public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @NotBlank
+    @Column(nullable = false)
     private String userName;
     @NotBlank
+    @Column(nullable = false)
     private String passWord;
     @Min(value = 16)
+    @Column(nullable = false)
     private Integer Age;
 
 

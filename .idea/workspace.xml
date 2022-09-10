@@ -7,10 +7,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.7.0 СRUD рабочий">
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="3.9 СRUD рабочий c http методом  delete">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hibernate/src/main/java/ru/nabokae/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/HibernateRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/WebApp/WEB-INF/views/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/ClassForTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/ClassForTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +31,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,22 +63,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Евгений/IdeaProjects/PP_2_3_1_/SpringMVC/src/main/WebApp/WEB-INF/resources/css&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ca7810ebddf5a7f2935ff5fb7e371705&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Евгений/IdeaProjects/PP_2_3_1_/SpringMVC/src/main/resources",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "spring.configuration.checksum": "ca7810ebddf5a7f2935ff5fb7e371705"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Евгений\IdeaProjects\PP_2_3_1_\SpringMVC\src\main\resources" />
       <recent name="C:\Users\Евгений\IdeaProjects\PP_2_3_1_\SpringMVC\src\main\WebApp\WEB-INF\resources\css" />
       <recent name="C:\Users\Евгений\IdeaProjects\PP_2_3_1_\SpringMVC\src\main\WebApp\WEB-INF\resources" />
       <recent name="C:\Users\Евгений\IdeaProjects\PP_2_3_1_\SpringMVC\src\main\java\ru\nabokae" />
@@ -98,7 +126,8 @@
       <workItem from="1662315797213" duration="19889000" />
       <workItem from="1662399113431" duration="28832000" />
       <workItem from="1662578583453" duration="27125000" />
-      <workItem from="1662746879045" duration="13951000" />
+      <workItem from="1662746879045" duration="17292000" />
+      <workItem from="1662814920296" duration="9270000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -338,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662808643627</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="3.9 СRUD рабочий c http методом  delete">
+      <created>1662811119883</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1662811119883</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3.0 Spring MVC" />
     <MESSAGE value="3.1 Spring MVC" />
     <MESSAGE value="3.1.1 Spring MVC" />
     <MESSAGE value="3.1.2 Spring MVC" />
@@ -381,7 +416,8 @@
     <MESSAGE value="3.6. СRU без D рабочий User not found + Валидация Рабочий +pass not blank" />
     <MESSAGE value="3.7.0 СRU+D" />
     <MESSAGE value="3.7.0 СRUD рабочий" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.7.0 СRUD рабочий" />
+    <MESSAGE value="3.9 СRUD рабочий c http методом  delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.9 СRUD рабочий c http методом  delete" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
