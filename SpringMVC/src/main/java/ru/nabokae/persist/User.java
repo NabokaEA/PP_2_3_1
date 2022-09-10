@@ -11,6 +11,7 @@ public class User {
     private Long id;
     @NotBlank
     private String userName;
+    @NotBlank
     private String passWord;
     @Min(value = 16)
     private Integer Age;
