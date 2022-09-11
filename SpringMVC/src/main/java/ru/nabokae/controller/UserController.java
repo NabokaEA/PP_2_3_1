@@ -3,6 +3,7 @@ package ru.nabokae.controller;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -12,6 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 import ru.nabokae.persist.NotFoundException;
 import ru.nabokae.persist.User;
 import ru.nabokae.persist.UserRepository;
+import ru.nabokae.persist.UserService;
 
 import javax.validation.Valid;
 import java.util.Optional;
@@ -24,6 +26,9 @@ public class UserController {
     private final UserRepository userRepository;
 
     @Autowired
+    private UserService userService;
+
+    @Autowired
     public UserController(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
@@ -31,7 +36,7 @@ public class UserController {
     @GetMapping("/all")
     public String ListPage(Model model) {
         logger.info("Запрошен список пользьзовантелей");
-        model.addAttribute("usersAll", userRepository.findAll());
+        model.addAttribute("usersAll", userService.listAll());
         return "users";
     }
 
@@ -48,7 +53,7 @@ public class UserController {
         if(bindingResult.hasErrors()){
             return "user";
         }
-        userRepository.update(user);
+        userService.save(user);
         return "redirect:/users/all";
     }
 
@@ -59,14 +64,14 @@ public class UserController {
         if(optionalUser.isPresent()){
             User user = optionalUser.get();
         }*/
-        model.addAttribute("user", userRepository.findById(id).orElseThrow(()-> new NotFoundException("User not found")));
+        model.addAttribute("user", userService.get(id));
         return "user";
     }
 
     @DeleteMapping ("/{id}")
     public String EditUserForm(@PathVariable("id") Long id) {
         logger.info("Запрошена страница удаления пользователя c id={}",id);
-        userRepository.delete(id);
+        userService.delete(id);
         return "redirect:/users/all";
     }
 

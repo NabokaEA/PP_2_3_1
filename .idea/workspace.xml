@@ -7,14 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="4.1 Hibernate настройка конфига">
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/CRUDuserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/DataConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/DataConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/HibernateRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/HibernateRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/User.java" afterDir="false" />
+    <list default="true" id="0d5adf17-8619-4a13-a0a8-8454eb8226b5" name="Changes" comment="4.1 Hibernate не работает">
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVC/src/main/java/ru/nabokae/persist/HibernateRepositoryImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,25 +56,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Евгений/IdeaProjects/PP_2_3_1_/SpringMVC/src/main/resources&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ca7810ebddf5a7f2935ff5fb7e371705&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Евгений/IdeaProjects/PP_2_3_1_/SpringMVC/src/main/resources",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "spring.configuration.checksum": "ca7810ebddf5a7f2935ff5fb7e371705"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Евгений\IdeaProjects\PP_2_3_1_\SpringMVC\src\main\resources" />
@@ -102,7 +96,7 @@
       <workItem from="1662578583453" duration="27125000" />
       <workItem from="1662746879045" duration="17292000" />
       <workItem from="1662814920296" duration="19912000" />
-      <workItem from="1662890238657" duration="9130000" />
+      <workItem from="1662890238657" duration="9967000" />
     </task>
     <task id="LOCAL-00001" summary="Настройка проекта">
       <created>1662316603679</created>
@@ -363,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662835939825</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="4.1 Hibernate не работает">
+      <created>1662906801936</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1662906801936</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +382,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3.1.2 Spring MVC" />
     <MESSAGE value="3.2 Spring MVC" />
     <MESSAGE value="3.2 Spring MVC err" />
     <MESSAGE value="3.3 Рабочий релиз" />
@@ -406,7 +406,8 @@
     <MESSAGE value="3.9 СRUD рабочий c http методом  delete" />
     <MESSAGE value="4.0 Hibernate" />
     <MESSAGE value="4.1 Hibernate настройка конфига" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.1 Hibernate настройка конфига" />
+    <MESSAGE value="4.1 Hibernate не работает" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.1 Hibernate не работает" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
